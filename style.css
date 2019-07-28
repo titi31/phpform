@@ -1,0 +1,83 @@
+button{
+	background: rgba(138, 138, 138, 0.822);
+	color:rgb(194, 23, 0);
+	border-radius: 10%;
+	font-size: 1.2em;
+	
+	border-bottom: none;
+	border-right: none;
+
+}
+
+button:hover{
+	background:transparent;
+}
+
+body{
+	background: url('i.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	color:white;
+}
+
+#boutonInscrire{
+	
+	height: 50px;
+	width:101%;
+	position: relative;
+	right: 7px;
+	bottom: 8px;
+
+}
+#monCompte{
+	border: 1px solid red;
+	position: fixed;
+	top:0;
+	right:0;
+}
+
+form{
+	text-align: center;
+
+	
+}
+input[type=text],button{
+	margin-top: calc(200px/2);
+}
+
+
+			/* NAVBAR*/
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(46, 55, 110);
+  overflow: hidden;
+  border: 2px solid rgb(19, 160, 26);
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: rgb(19, 160, 26);
+  color: white;
+}
+#liste{
+	color:white;
+
+}
